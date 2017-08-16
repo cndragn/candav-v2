@@ -40,5 +40,16 @@ Template Name: Front Page
  		</div>
  	</div>
  </div>
+ <div class ="container action">
+ 	<div class="row">
+ 	<div class="col-md-9">
+ 	<h3>Ready to get started?</h3>
+ 	<p>Get in touch with me today so that I may help find a solution to fit your business needs and budget.</p>
+ 	</div>
+ 	<div class="col-md-3">
+ 	<button>Free Consultation</button>
+ 	</div>
+ 	</div>
+ </div>
 
 <?php get_footer(); ?>
