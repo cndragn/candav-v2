@@ -4,3 +4,27 @@
     text-align: center;		    
     padding: 4% 0 8%;
 }
+.info {
+    
+    background-size: cover;
+    text-align: center;	
+    .bg-color {
+    	background-color: $primaryLight;
+    	.blocks {    		
+    		margin: 0 auto;
+	    		.info-square-outer {	
+	    		background: url(images/marble_bg.png) no-repeat center center fixed;  		    		
+	    		margin: 30px 15px;
+	    		width: 30%;
+	    		    padding: 20px;
+	    			.info-square-inner {
+	    				background-color: $secondaryLight;
+	    				padding: 30px;
+	    			}				
+			}
+		}
+    }	    
+}
+.container-fluid.info {
+    padding: 0;
+}
