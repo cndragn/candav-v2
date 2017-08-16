@@ -28,6 +28,9 @@
 .container-fluid.info {
     padding: 0;
 }
+.container-fluid.action {
+     background-color: $secondaryLight;
+}
 .action {
-    padding: 50px 0;
+    padding: 50px 0;   
 }
