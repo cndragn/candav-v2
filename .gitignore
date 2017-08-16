@@ -2,3 +2,7 @@ langauges
 LICENSE
 phpcs.xml.dist
 readme.txt
+Gulpfile.js
+node_modules
+package-lock.json
+package.json

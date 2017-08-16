@@ -42,9 +42,12 @@ if ( ! function_exists( 'candav_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
+		// Register Custom Navigation Walker
+require_once('wp-bootstrap-navwalker.php');
+
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'candav' ),
+			'primary' => esc_html__( 'Primary', 'candav' ),
 		) );
 
 		/*
@@ -119,6 +122,11 @@ add_action( 'widgets_init', 'candav_widgets_init' );
 function candav_scripts() {
 	wp_enqueue_style( 'candav-style', get_stylesheet_uri() );
 
+	wp_register_script( 'jScript', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js' );
+    wp_register_script('bootstrapjs',get_template_directory_uri() .'/js/bootstrap.min.js');
+    wp_enqueue_script( 'jScript' );
+    wp_enqueue_script( 'bootstrapjs' );
+
 	wp_enqueue_script( 'candav-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'candav-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -155,3 +163,5 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+

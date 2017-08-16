@@ -25,7 +25,18 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'candav' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="site-branding navbar-brand">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) : ?>
@@ -34,23 +45,27 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php
 			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
+ ?>
 		</div><!-- .site-branding -->
+    </div>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'candav' ); ?></button>
-			<?php
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="nav-collapse">
+      <?php
 				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
+					'theme_location' => 'primary',
+					'menu_id'        => 'primary',
+					//'depth'             => 2,
+                'container_id'      => 'nav-collapse',
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+        'walker'            =>  new wp_bootstrap_navwalker()
 				) );
 			?>
-		</nav><!-- #site-navigation -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
