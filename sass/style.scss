@@ -27,7 +27,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Typography
 # Elements
 # Forms
-# Navigation
+# Header
 	## Links
 	## Menus
 # Accessibility
@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
+#Footer
 --------------------------------------------------------------*/
 @import "bootstrap";
 @import "variables-site/variables-site";
@@ -67,9 +68,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 @import "forms/forms";
 
 /*--------------------------------------------------------------
-# Navigation
+# Header
 --------------------------------------------------------------*/
-@import "navigation/navigation";
+@import "partials/navigation";
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -95,6 +96,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Content
 --------------------------------------------------------------*/
 @import "site/site";
+@import "partials/front-page";
 
 /*--------------------------------------------------------------
 # Infinite scroll
@@ -105,3 +107,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "partials/footer";

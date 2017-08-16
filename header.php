@@ -57,7 +57,7 @@
 					'menu_id'        => 'primary',
 					//'depth'             => 2,
                 'container_id'      => 'nav-collapse',
-                'menu_class'        => 'nav navbar-nav',
+                'menu_class'        => 'nav navbar-nav navbar-right',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
         'walker'            =>  new wp_bootstrap_navwalker()
 				) );
