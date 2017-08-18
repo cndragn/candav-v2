@@ -11,7 +11,9 @@ html {
 body {
 	background-color: $color-background; /* Fallback for when there is no custom background color defined. */
 }
-
+a, a:hover, a hover, a:active, a active, a:visited, a visited {
+	text-decoration: none;
+}
 blockquote, q {
 	quotes: "" "";
 

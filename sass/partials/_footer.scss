@@ -1,8 +1,11 @@
-footer {
+footer {	
     padding: 25px;
     text-align: center;
     background-color: $primaryDark;
     color: $secondaryLight;
+    p {
+    	margin-bottom: 0;
+    }
     a, a hover, a:hover, a active, a:active, a visited, a:visited {
     	color: $secondaryLight;
     }

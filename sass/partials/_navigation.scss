@@ -1,6 +1,37 @@
+
+	.navbar-brand {
+    padding: 0;    
+	}
+	.custom-logo-link {
+    float: left;
+    margin-right: 15px;
+}
+	img.custom-logo {
+    max-height: 50px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+	}
+
+
+.site-title a {
+	font-family: Chopin, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: $primaryDark;
+}
+p.site-title {
+    width: 325px;
+    padding-top: 15px;
+}
+
 nav {
     padding: 0 25px;
 }
 .navbar {
 	margin-bottom: 0;
+}
+#menu-item-57 a {
+    border: 4px double $primaryDark;
+    padding: 7px;
+    margin-top: 3px;
 }

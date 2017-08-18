@@ -1,0 +1,51 @@
+@media (max-width: 767px) {
+	.page-content, .entry-content, .entry-summary {
+    padding: 10px;
+	}
+	.text-box h3 {
+    text-align: center;
+	}
+	.entry-header {
+		padding: 50px;
+		.entry-title {
+		width: initial;
+		}
+	}
+	.pic-border {
+		margin-bottom: 25px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.site-title {
+    display: none;
+	}
+	.prelude {
+    background: url(images/hdr-laptop.png) no-repeat center left;
+        padding: 4% 15% 8%;
+        .col-md-4 {
+	    background-color: rgba(255, 255, 255, 0.9);
+	    padding: 20px 30px 0;	        
+		}
+	}
+	.info .bg-color .blocks .info-square-outer {
+		width: initial;
+	}
+	.process .col-md-3.text-box {
+    margin: 0 10px 20px;
+    width: initial;
+}
+}
+
+@media (min-width: 992px) {
+	.process .col-md-3.text-box {
+		min-height: 284px;
+	}
+}
+@media (min-width: $screen-lg-min) {
+
+}
+@media (min-width: $screen-xl-min) {
+
+}

@@ -19,3 +19,22 @@
 .gallery-caption {
 	display: block;
 }
+
+// Portfolio and Projects Plugin
+ul.wppap-thumbs li a.wppap-thumbnail {
+	margin: 25px;
+}
+.wppap-main-wrapper {
+    margin-left: -15px;
+}
+
+//Freeland Portfolio
+.portfolio-gallery {
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 50px;
+    img {
+	    border: 5px solid $portfolio;
+		padding: 10px;
+    }
+}

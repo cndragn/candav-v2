@@ -1,0 +1,25 @@
+.social p {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.social .fa {
+    font-size: 1.4em;
+    margin-top: 8px;
+}
+
+.fa-skype {
+    color: $skype;
+}
+
+.fa-linkedin-square {
+    color: $linkedin;
+}
+
+.fa-twitter {
+    color: $twitter;
+}
+
+.fa-github {
+    color: $github;
+}
