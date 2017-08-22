@@ -7,6 +7,14 @@
  * @package Bulmapress
  */
 
+function theme_prefix_setup() {
+	
+	add_theme_support( 'custom-logo', array(
+		'height'      => 50,
+	) );
+
+}
+add_action( 'after_setup_theme', 'theme_prefix_setup' );
 
 require get_template_directory() . '/functions/bulmapress_navwalker.php';
 require get_template_directory() . '/functions/bulmapress_helpers.php';

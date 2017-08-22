@@ -1,0 +1,39 @@
+$charcoal: #383838;
+$offWhite: #fbfbfc;
+$lightGrey: #e7e7e7;
+$skyBlue: #cfebf3;
+
+$navBg: $offWhite;
+$navBdr: $lightGrey;
+$navBgFocus: $skyBlue;
+$navBgHover: #eaf4f7;
+$logoColor: $charcoal;
+//$text-underlay: rgba(255, 255, 255, .7);
+//$color-background: #f2f3f5;
+//$primaryLight: #f2f3f5;
+//$secondaryLight: #ffffff;
+//$positive: #b6e0ae;
+
+//$portfolio: #cedde8;
+//$text-frame: #cedde8;
+
+$skype: #00b0f0;
+$linkedin: #0077B5;
+$twitter: #1da1f3;
+$github: #6e5494;
+
+#header.hero {
+	background-color: $navBg;
+	border: $lightGrey;
+	.hero-head {
+		a.nav-item.is-brand {
+	    	color: $logoColor;
+		}		
+		.nav-item.is-tab:hover {
+			background-color: $navBgHover;
+		}
+		.nav-item.is-tab.active {
+			background-color: $navBgFocus;
+		}
+	}
+}

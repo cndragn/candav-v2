@@ -1,0 +1,49 @@
+#page {
+	.container.is-fluid {
+	    margin: 0;
+	    max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px) { //bigger than tablet
+	.container.is-fluid {
+	    .nav-left {
+		    padding-left: 20px;
+		    margin-right: -20px;
+		}
+		.nav-right {
+		    padding-right: 20px;
+		    margin-left: -20px;
+		}
+	}
+}
+
+#header.hero {
+	//border: 1px solid;
+	.hero-head {
+		.container {
+			.nav-left {
+				margin-left: 5px;
+				img.custom-logo {
+				    max-height: 50px;
+				    width: auto;
+				}
+				a.nav-item.is-brand {
+				    margin-left: 5px;
+				    padding: 0;	
+				}
+			}			
+			.nav-item.is-tab:hover {
+				border: none;
+			}
+			.nav-item.is-tab.is-active {
+				border: none;
+			}
+			li.nav-item.is-tab:last-child a {
+		    padding: 5px;
+		    margin: -5px;
+		    border: 4px double;
+			}
+		}
+	}
+}

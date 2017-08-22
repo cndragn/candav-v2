@@ -16,16 +16,12 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
 /*--------------------------------------------------------------
-# Main stylesheet
+# Bulmapress
 --------------------------------------------------------------*/
-@import "../frontend/bulmapress/css/bulmapress"; 
 
-/*--------------------------------------------------------------
-# Bulma Sass
---------------------------------------------------------------*/
-@import "../frontend/bulma/bulma"; 
+@import "../frontend/bulma/bulma"; //Bulma Sass
+@import "../frontend/bulmapress/bulmapress"; //Bulmapress Sass
 
-/*--------------------------------------------------------------
-# Bulmapress Sass
---------------------------------------------------------------*/
-@import "../frontend/bulmapress/bulmapress"; 
+@import "partials/layout";
+@import "partials/colors";
+@import "partials/typography";

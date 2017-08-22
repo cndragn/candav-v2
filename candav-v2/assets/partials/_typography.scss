@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Chopin";
+    src: local(chopin), url(' fonts/ChopinScript.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+$font_main: Raleway, Helvetica, Arial, sans-serif;
+$font_header: Quicksand, Helvetica, Arial, sans-serif;
+$font_logo: Chopin, Helvetica, Arial, sans-serif;
+
+#header.hero {
+	.hero-head {
+		.nav-item {
+			font-family: $font_main;
+			font-size: 16px	
+		}
+		a.nav-item.is-brand {
+		font-family: $font_logo;
+	    font-size: 40px;
+		}
+	}
+}
+

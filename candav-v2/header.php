@@ -24,9 +24,11 @@
 		<?php bulmapress_skip_link_screen_reader_text(); ?>
 		<header id="header" class="hero">
 			<div class="hero-head">
-				<div class="container">
+				<div class="container is-fluid">
 					<nav id="site-navigation" class="nav main-navigation" role="navigation">
 						<div class="nav-left">
+							<?php if ( function_exists( 'the_custom_logo' ) ) {
+    						the_custom_logo();} ?>
 							<?php bulmapress_home_link('nav-item is-brand'); ?>
 							<?php bulmapress_blog_description('nav-item is-muted'); ?>
 						</div>
