@@ -10,14 +10,17 @@
 	.hero-head {
 		.container {
 			.nav-left {
+				a.nav-item.is-brand {
+			    	padding: 0 5px;
+				}
 				img.custom-logo {
 				    max-height: 50px;
 				    width: auto;
-				    margin: 10px 0 0 5px;
 				}				
 			}
 			.nav-right {	
 				border-top: 1px solid $lightGrey;
+				flex-wrap: nowrap;
 				.nav-item.is-tab:hover {
 					border: none;
 				}
@@ -34,10 +37,10 @@
 	}
 }
 
-@media screen and (min-width: 769px) { //bigger than tablet
+@media screen and (min-width: 769px) { //bigger than tablet	
 	.container.is-fluid {
 		padding: 0 20px;	    
-	}
+	}	
 }
 @media screen and (max-width: 374px) { // XS mobile view
 	#header.hero {

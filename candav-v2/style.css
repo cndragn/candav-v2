@@ -4362,12 +4362,14 @@ figure {
 
 #header.hero {
   border: 1px solid #e7e7e7; }
+  #header.hero .hero-head .container .nav-left a.nav-item.is-brand {
+    padding: 0 5px; }
   #header.hero .hero-head .container .nav-left img.custom-logo {
     max-height: 50px;
-    width: auto;
-    margin: 10px 0 0 5px; }
+    width: auto; }
   #header.hero .hero-head .container .nav-right {
-    border-top: 1px solid #e7e7e7; }
+    border-top: 1px solid #e7e7e7;
+    flex-wrap: nowrap; }
     #header.hero .hero-head .container .nav-right .nav-item.is-tab:hover {
       border: none; }
     #header.hero .hero-head .container .nav-right .nav-item.is-tab.is-active {
