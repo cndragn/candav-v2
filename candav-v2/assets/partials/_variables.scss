@@ -1,0 +1,35 @@
+// 1. Initial variables
+
+// Colors
+$charcoal: #383838 !default
+$offWhite: #fbfbfc !default
+$lightGrey: #e7e7e7 !default
+$skyBlue: #cfebf3 !default
+$turquoise: #5bc0de !default
+$softGrey: #f2f3f5 !default
+
+$bgColor: $offWhite !default
+$navBg: $offWhite !default
+$navBdr: $lightGrey !default
+$navBgFocus: $skyBlue !default
+$navBgHover: #eaf4f7 !default
+$logoColor: $charcoal !default
+$offWhite-trans: rgba( $offWhite, .9 );
+
+$skype: #00b0f0 !default
+$linkedin: #0077B5 !default
+$twitter: #1da1f3 !default
+$github: #6e5494 !default
+
+// Typography
+@font-face {
+    font-family: "Chopin";
+    src: local(chopin), url(' fonts/ChopinScript.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+$family-sans-serif: Raleway, Helvetica, Arial, sans-serif;
+$font_header: Quicksand, Helvetica, Arial, sans-serif;
+$font_logo: Chopin, Helvetica, Arial, sans-serif;
+
+$size-6: 16px !default

@@ -1,0 +1,39 @@
+#page {
+    .content-area {
+        .site-main {
+            .prelude {
+                background: url(images/hdr-laptop.png) no-repeat center center;
+                background-size: cover;
+                padding: 4% 0 10%;
+            }
+            .info {
+                background: $softGrey;
+                margin-top: 35px;
+            }
+            .action {
+                padding: 30px 0;
+                .column {
+                    margin: 30px 0;
+                }
+                .button {
+                    position: relative;
+                    top: 50%;
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+}  
+
+@media screen and (max-width: 768px) { //tablet and smaller
+    #page .content-area .site-main .prelude {
+        background: url(images/hdr-laptop.png) no-repeat center left;
+        padding: 4% 15% 8%;
+        .column {
+            background-color: $offWhite-trans;
+            padding: 20px 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -19,9 +19,16 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 # Bulmapress
 --------------------------------------------------------------*/
 
+@import "partials/variables";
 @import "../frontend/bulma/bulma"; //Bulma Sass
 @import "../frontend/bulmapress/bulmapress"; //Bulmapress Sass
+
+
+/*--------------------------------------------------------------
+# Custom Styles
+--------------------------------------------------------------*/
 
 @import "partials/colors";
 @import "partials/typography";
 @import "partials/layout";
+@import "partials/front-page";

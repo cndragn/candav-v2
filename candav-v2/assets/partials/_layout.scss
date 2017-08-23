@@ -1,9 +1,15 @@
-#page {
-	.container.is-fluid {
-	    margin: 0;
-	    //max-width: 100%;
+	
+	#page {
+		background-color: $offWhite;
+		.container {
+			padding: 15px 30px;
+		}
+		.container.is-fluid {
+			margin: 0;
+			padding: 0;
+		}
 	}
-}
+
 
 #header.hero {
 	border: 1px solid $lightGrey;
@@ -35,6 +41,17 @@
 			}
 		}
 	}
+}
+
+.square-outer {
+	background: url(images/marble_bg.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 30px 15px;
+    padding: 18px;
+}
+.square-inner {
+	background-color: $offWhite;
+	padding: 30px;
 }
 
 @media screen and (min-width: 769px) { //bigger than tablet	
