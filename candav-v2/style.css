@@ -4384,7 +4384,7 @@ p {
   font-size: 2.5rem; }
 
 #page {
-  background-color: #fbfbfc; }
+  background-color: #f2f3f5; }
   #page .container {
     padding: 15px 30px; }
   #page .container.is-fluid {
@@ -4410,6 +4410,9 @@ p {
       margin: -5px;
       border: 4px double; }
 
+span.edit-link {
+  display: none; }
+
 .square-outer {
   background: url(images/marble_bg.png) no-repeat center center fixed;
   background-size: cover;
@@ -4432,13 +4435,15 @@ p {
   background: url(images/hdr-laptop.png) no-repeat center center;
   background-size: cover;
   padding: 4% 0 10%; }
+  #page .content-area .site-main .prelude .button {
+    margin: 25px 0; }
 
 #page .content-area .site-main .info {
-  background: #f2f3f5;
-  margin-top: 35px; }
+  background: #f2f3f5; }
 
 #page .content-area .site-main .action {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background-color: #fbfbfc; }
   #page .content-area .site-main .action .column {
     margin: 30px 0; }
   #page .content-area .site-main .action .button {
@@ -4455,3 +4460,25 @@ p {
       padding: 20px 20px;
       margin-top: 20px;
       margin-bottom: 20px; } }
+
+#page .section {
+  padding: 0; }
+
+#page header.content {
+  background: url(images/marble_bg2.png) no-repeat center;
+  background-size: cover;
+  padding: 100px; }
+  #page header.content .title {
+    text-align: center;
+    background-color: rgba(251, 251, 252, 0.9);
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #fbfbfc; }
+
+#page .entry-content, #page .entry-summary, #page .page-content {
+  margin: 1.5em 0 0;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #fbfbfc;
+  overflow: auto; }

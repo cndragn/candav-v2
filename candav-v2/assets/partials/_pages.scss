@@ -1,0 +1,30 @@
+#page {
+    .section {
+        padding: 0;
+    }
+    header.content {
+        background: url(images/marble_bg2.png) no-repeat center;
+        background-size: cover;
+        padding: 100px;
+        .title {
+            text-align: center;
+            background-color: $offWhite-trans;
+            padding: 50px;
+            width: 50%;
+            margin: 0 auto;
+            border: 2px solid $offWhite;
+        }
+    }
+
+    .entry-content, .entry-summary, .page-content {
+        margin: 1.5em 0 0;
+        margin: 40px auto;
+        padding: 40px;
+        background-color: $offWhite;
+        overflow: auto;
+    }
+
+    footer {
+        //margin-top: 25px;
+    }
+}

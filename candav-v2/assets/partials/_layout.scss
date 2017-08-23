@@ -1,6 +1,6 @@
 	
 	#page {
-		background-color: $offWhite;
+		background-color: $softGrey;
 		.container {
 			padding: 15px 30px;
 		}
@@ -41,6 +41,10 @@
 			}
 		}
 	}
+}
+
+span.edit-link {
+    display: none;
 }
 
 .square-outer {

@@ -49,7 +49,8 @@ Template Name: Front Page
 			</div>
 		</div>
 		<!--end info-->
-		<div class="container action">
+		<div class="action">
+			<div class="container">
 			<div class="columns has-text-centered">
 				<div class="column is-three-quarters">
 				<h2>Ready to get started?</h2>
@@ -59,6 +60,7 @@ Template Name: Front Page
 				<a class="button is-primary is-medium" href="<?php echo get_site_url(); ?>/contact">Free Consultation</a>
 				</div>
 			</div>
+</div>
 		</div>
 		<!--end action-->
 

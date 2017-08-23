@@ -9,7 +9,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('section'); ?>>
-	<div class="container">
+	<div class="container is-fluid">
 		<header class="content">
 			<?php if ( is_single() ) : ?>
 				<?php bulmapress_the_title('is-1', FALSE); ?>
@@ -25,7 +25,7 @@
 			<?php endif; ?>
 		</header><!-- .entry-header -->
 
-		<div class="content entry-content">
+		<div class="content container entry-content">
 			<?php the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses(
