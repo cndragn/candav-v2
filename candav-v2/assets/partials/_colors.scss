@@ -17,3 +17,14 @@
 	}
 }
 
+footer {
+	background-color: $charcoal;
+	color: $offWhite;
+	a {
+		color: $rose-link;
+	}
+	a:hover, a hover {
+		color: $rose;
+	}
+}
+

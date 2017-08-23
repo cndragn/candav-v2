@@ -12,13 +12,11 @@
 
 </div><!-- #content -->
 
-<footer id="colophon" class="site-footer hero is-transparent" role="contentinfo">
-	<div class="container">
-		<div class="hero-body has-text-centered">
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="container has-text-centered">
 			<div class="site-info">
-				<?php bulmapress_copyright_link(); ?>
+			<p>© 2006-2017 <a href="http://www.CandiceDavidson.com" target="_blank">CandiceDavidson.com</a></p>
 			</div><!-- .site-info -->
-		</div>
 	</div><!-- .container -->
 </footer><!-- #colophon -->
 </div><!-- #page -->

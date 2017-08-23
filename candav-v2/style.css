@@ -4352,6 +4352,14 @@ figure {
     #header.hero .hero-head .nav-right .nav-item.is-tab.active {
       background-color: #cfebf3; }
 
+footer {
+  background-color: #383838;
+  color: #fbfbfc; }
+  footer a {
+    color: #ecadcf; }
+  footer a:hover, footer a hover {
+    color: #ddbcce; }
+
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: Quicksand, Helvetica, Arial, sans-serif; }
@@ -4369,7 +4377,7 @@ h3 {
   font-size: 1.5rem; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin: 1em; }
 
 #header.hero .hero-head a.nav-item.is-brand {
   font-family: Chopin, Helvetica, Arial, sans-serif;
