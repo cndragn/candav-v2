@@ -1,0 +1,270 @@
+//Custom CSS 
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+h1 {
+	margin: 0 0 .67em;
+}
+h2 {
+	margin: 0 0 15px;
+}
+h3 {
+	margin: 0 0 15px;
+}
+p {
+	margin: 1em 0;
+}
+
+.btn-primary {
+    color: $white;    
+}
+.btn-primary:hover {
+    color: $white;
+}
+ //btn large 
+ .btn-lg {
+    padding: .3rem .6rem;
+ }
+.pic-border {
+    padding: 8px;
+    border: 2px solid $softgrey;
+}
+
+//Parallax text box
+.square-outer {
+	background: url(../img/marble_bg.png) no-repeat center center fixed;
+    background-size: cover;
+    padding: 18px;
+}
+.square-inner {
+	background-color: $offwhite;
+	padding: 30px;
+}
+
+//Social Media Icons
+.hire .fa {
+    font-size: 30px;
+    margin: 24px 5px;
+}
+.social .fa {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-github {
+    color: $github;
+}
+.fa-linkedin-square {
+    color: $linkedin;
+}
+.fa-twitter {
+	color: $twitter;
+}
+.fa-skype {
+	color: $skype;
+}
+
+//Navigation
+.navbar {
+    padding: 0 1rem;
+    min-height: 50px;
+    border: 1px solid $navbar-border;
+        .brand-name {
+            font-family: $font-logo;
+            color: $gray-900;
+            font-size: 2.5rem;
+            padding: 0;
+        }
+        .custom-logo-link img {
+            max-height: 60px;
+            width: auto;
+            float: left;
+        }
+    .navbar-nav {
+        li {
+            padding: .6rem .3rem;
+        }
+        li.active, li.active:hover {
+            background-color: $skyblue;
+        }
+        li:hover {
+            background-color: $paleblue;
+        }
+        .nav-item:last-child a {
+            padding: 5px;
+            border: 4px double;
+        }
+    }
+}
+
+//Footer
+#wrapper-footer {
+    background-color: $footer-bg;
+    text-align: center;
+    color: $white;
+    a {
+        color: $rose-link;
+    }
+    a:hover, a:active {
+        color: $rose;
+    }
+    .attrib p {
+        font-size: .8rem;
+        margin: .3rem;
+        color: $gray-500;
+        a {
+            color: $rose;
+        }
+    }
+}
+
+//Home
+.home {
+    .prelude {
+        background: url(../img/hdr-laptop.png) no-repeat center center;
+        background-size: cover;
+        padding: 4% 0 10%;
+        .btn {
+            margin: 25px 0;
+        }
+    }
+    .info {
+        background-color: $softgrey;
+    }
+    .action {
+        padding: 30px 0;
+        background-color: $white;
+    }
+}
+
+//Page headers
+#page {
+    background-color: $softgrey;
+    #davidson-fw {
+        header {
+            background: url(../img/marble_bg2.png) no-repeat center;
+            background-size: cover;
+            padding: 100px;
+            .entry-title {
+                text-align: center;
+                background-color: $offwhite-trans;
+                padding: 50px;
+                width: 50%;
+                margin: 0 auto;
+                border: 2px solid $offwhite;
+                font-size: 40px;
+            }
+        }
+        .entry-content, .entry-summary, .page-content {
+            margin: 1.5em 0 0;
+            margin: 40px auto;
+            padding: 20px 40px;
+            background-color: $offwhite;
+            overflow: auto;
+        }
+    }
+
+    .text-box {
+        border: 8px solid $powderblue;
+        margin: 20px 0;
+        padding: 20px;
+    }
+}
+
+//Custom list style bullets Solutions
+.solution {
+    ul {
+        list-style: none;
+    }
+    li:before {
+        content: "\f00c";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em;
+        width: 1.3em;
+        color: #b6e0ae;
+    }
+}
+
+//Portfolio
+.folio {
+    margin: 20px 0;
+    img {
+        border: 5px solid $powderblue;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+//Hire me
+.hire {
+    .btn {
+        margin: 20px 0;
+    }
+}
+
+.hire {
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 375px) { //Special Nav
+    //Logo Name
+    .navbar .brand-name {
+        font-size: 1.9rem;
+    }
+    //Button
+    .btn-lg {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 850px) { //Special Nav
+    //Logo & Nav
+    .custom-logo-link {
+        display: none;
+    }
+    .navbar .navbar-nav li {
+        padding: .6rem 0;
+    }
+}
+
+@media screen and (max-width: 767px) { //tablet and smaller
+    //Front page
+     .home .prelude {
+        background: url(../img/hdr-laptop.png) no-repeat center left;
+        padding: 4% 15% 8%;
+        .intro {
+            background-color: $offwhite-trans;
+            padding: 20px 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    //Pages
+    #page {
+        #davidson-fw header {
+            background: url(../img/marble_bg2.png) no-repeat center;
+            background-size: cover;
+            padding: 50px;
+            .entry-title {
+                width: 100%;
+                padding: 50px 0;
+                font-size: 35px;
+            }
+        }
+    }
+
+    //Hire 
+    .hire h3 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .square-outer {
+        margin-bottom: 30px;
+    }
+}
