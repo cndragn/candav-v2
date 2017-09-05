@@ -13,6 +13,8 @@ function bulmapress_scripts() {
 
 	//wp_enqueue_style( 'bulmapress-fontawesome', get_template_directory_uri() . '/frontend/fontawesome/css/font-awesome.min.css' );
 
+	wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
+
 	wp_enqueue_style( 'bulmapress-bulma-style', get_template_directory_uri() . '/frontend/bulmapress/css/bulmapress.css' );
 
 	wp_enqueue_style( 'bulmapress-style', get_stylesheet_uri() );

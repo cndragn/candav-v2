@@ -15,6 +15,8 @@
 	border: 1px solid $lightGrey;
 	.hero-head {
 		.container {
+				padding: 0;
+				max-width: 95%;
 			.nav-left {
 				a.nav-item.is-brand {
 			    	padding: 0 5px;
@@ -58,11 +60,48 @@ span.edit-link {
 	padding: 30px;
 }
 
+.pic-border {
+    padding: 8px;
+    border: 2px solid $softGrey;
+}
+
+.hire .fa {
+    font-size: 30px;
+    margin: 24px 5px;
+}
+.social .fa {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-github {
+    color: $github;
+}
+.fa-linkedin-square {
+    color: $linkedin;
+}
+.fa-twitter {
+	color: $twitter;
+}
+.fa-skype {
+	color: $skype;
+}
+
+// Hire Me
+
+ul.wppap-thumbs li.wppap-content .wppap-close {
+	color: $turquoise;
+}
+
+a.wppap-thumbnail {
+    margin: 25px;
+}
+
 @media screen and (min-width: 769px) { //bigger than tablet	
 	.container.is-fluid {
 		padding: 0 20px;	    
 	}	
 }
+
 @media screen and (max-width: 374px) { // XS mobile view
 	#header.hero {
 		.hero-head {

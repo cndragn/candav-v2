@@ -16,7 +16,11 @@ h3 {
     font-size: 1.5rem;
 }
 p {
-	margin: 1em;
+	margin: 1em 0;
+}
+
+.content a:not(.button) {
+    border: 0;
 }
 
 #header.hero {

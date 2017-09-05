@@ -8,6 +8,8 @@ $skyBlue: #cfebf3 !default
 $turquoise: #5bc0de !default
 $softGrey: #f2f3f5 !default
 $rose: #ddbcce;
+$powderBlue: #cedde8;
+
 
 $bgColor: $offWhite !default
 $navBg: $offWhite !default
@@ -15,7 +17,7 @@ $navBdr: $lightGrey !default
 $navBgFocus: $skyBlue !default
 $navBgHover: #eaf4f7 !default
 $logoColor: $charcoal !default
-$offWhite-trans: rgba( $offWhite, .9 );
+$offWhite-trans: rgba( $offWhite, .8 );
 $rose-link: saturate($rose, 30%);
 
 $skype: #00b0f0 !default

@@ -27,7 +27,7 @@ Template Name: Front Page
 					<div class="column one-third square-outer">
 						<div class="square-inner has-text-centered">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/003-coding.png">
-							<h2>Website Design</h2>
+							<h2>Web Design</h2>
 							<p>From a basic website to a flexible CMS platform, there is a solution to fit your needs.</p>
 						</div>
 					</div>

@@ -24,7 +24,7 @@
 		<?php bulmapress_skip_link_screen_reader_text(); ?>
 		<header id="header" class="hero">
 			<div class="hero-head">
-				<div class="container is-fluid">
+				<div class="container">
 					<nav id="site-navigation" class="nav main-navigation" role="navigation">
 						<div class="nav-left">
 							<?php if ( function_exists( 'the_custom_logo' ) ) {

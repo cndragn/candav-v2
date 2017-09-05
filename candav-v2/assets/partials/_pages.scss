@@ -24,7 +24,68 @@
         overflow: auto;
     }
 
-    footer {
-        //margin-top: 25px;
+    .text-box {
+        border: 8px solid $powderBlue;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .solution {
+        ul {
+            list-style: none;
+        }
+        li:before {
+            content: "\f00c";
+            font-family: FontAwesome;
+            display: inline-block;
+            margin-left: -1.3em;
+            width: 1.3em;
+            color: #b6e0ae;
+        }
+    }
+}
+
+.folio {
+    img {
+        border: 5px solid $powderBlue;
+        padding: 10px;
+    }
+}
+.hire {
+    .button {
+        margin: 20px 0;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) { //tablet and smaller
+    #page {
+        header.content {
+            background: url(images/marble_bg2.png) no-repeat center;
+            background-size: cover;
+            padding: 50px;
+            .title {
+                width: 100%;
+                padding: 50px 0;
+                font-size: 35px;
+            }
+        }
+    }
+    .square-outer {
+        margin: 0;
+    }
+    #page .entry-content, #page .entry-summary, #page .page-content {
+        padding: 20px;
+    }
+
+    ul#thumbs-1 {
+        margin: 0;
+    }
+    a.wppap-thumbnail {
+        margin: 25px 0;
+    }
+    ul#thumbs-1 {
+        margin: 0;
     }
 }
