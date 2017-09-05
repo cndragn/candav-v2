@@ -1,12 +1,12 @@
-#### See: [Official Demo](https://candicedavidson.com/davidson) | Read: [Official Docs Page](https://davidson.github.io/)
-
 # Davidson WordPress Theme
 
-Website: [https://candicedavidson.com](https://candicedavidson.com)
+#### See: [Website](http://candicedavidson.com) | Github: [Current Theme Version 0.3](https://github.com/cndragn/wp-candav/tree/master/davidson01/davidson)
 
+![CandiceDavidson.com WordPress Theme](https://github.com/cndragn/wp-candav/blob/master/davidson01/davidson/screenshot.png)
 
 ## About
 
+Front End Development resume and freelance web design and development porffolio. Custom WordPress theme created with Understrap utilizing Underscores starter theme and Bootstrap 4 Beta.  Additonally developed with Gulp, SCSS, npm.
 
 ## License
 Davidson is released under the terms of the GPL version 2 or any later version.
@@ -14,7 +14,12 @@ Davidson is released under the terms of the GPL version 2 or any later version.
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 ## Changelog
-See [changelog](CHANGELOG.md)
+- ** 0.3 Sep 05, 2017 - Convert to Understrap**
+      - Change theme name from Candav v2 / candav-v2 to Davidson / davidson
+
+- ** 0.2 Aug 21, 2017 - Convert to Bulmapress**
+
+- ** 0.1 Aug 15, 2017 - First commit**
 
 
 ## Basic Features
@@ -28,50 +33,10 @@ See [changelog](CHANGELOG.md)
 - Translation ready.
 
 
-## Installation
-
-### Classic install
-- Download the Davidson theme from [https://candicedavidson.com](https://candicedavidson.com)
-- Upload it into your WordPress installation subfolder here: `/wp-content/themes/`
-- Login to your WordPress backend
-- Go to Appearance → Themes
-- Activate the Davidson theme
-
-### WordPress.org install
-- Open your WordPress backend
-- Click on "Appearance -> Themes"
-- Hit the "Add new" button
-- Search for "Davidson"
-- Hit the "install" button
-- Activate the theme
-
-## How to Use the Build-In Widget Slider
-
-The front-page slider is widget driven. Simply add more than one widget to widget position “Hero”.
-- Click on Appearance → Widgets.
-- Add two, or more, widgets of any kind to widget area “Hero”.
-- That’s it.
-
-## RTL styles?
-Just add a new file to the themes root folder called rtl.css. Add all alignments to this file according to this description:
-https://codex.wordpress.org/Right_to_Left_Language_Support
-
-## Page Templates
-
-### Blank Template
-
-The `blank.php` template is useful when working with various page builders and can be used as a starting blank canvas.
-
-### Empty Template
-
-The `empty.php` template displays a header and a footer only. A good starting point for landing pages.
-
-### Full Width Template
-
-The `fullwidthpage.php` template has full width layout without a sidebar.
-
 Licenses & Credits
 =
+- Understrap: https://understrap.github.io 0.6.4.1
+- Underscores: http://underscores.me
 - Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
 - Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
 and of course
